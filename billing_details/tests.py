@@ -1,7 +1,11 @@
-from django.test import TestCase
+from django.test import TestCase, Client
+from django.urls import reverse
 from billing_details.models import *
 # Create your tests here.
 class CreditTestCase(TestCase):
+    def setUp(self):
+        self.client = Client()
+        self.details_urlss = reverse('credit')
     def create_Credit(self):
         return billing.objects.create(fullname="Jai",emailid="jaiarora5080@gmail.com",address="Krishna Nagar",
         city="Delhi",state="Delhi",zip="110051",cardname="Jai Arora" ,cardnumber="1111222255558888", expiry_month="10",expiry_year="2014",cvv="458")
@@ -9,11 +13,18 @@ class CreditTestCase(TestCase):
     def test_create_Credit(self):
         e=self.create_Credit()
         self.assertTrue(isinstance(e,billing))
+    
+    def test_details_import(self):
+        response = self.client.get(self.details_urlss)
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'showdata.html')   
 
 class SalaryTestCase(TestCase):
+    
     def create_Salary(self):
         return Salary.objects.create(Employee_ID="259",working_hour="45.6",month="June",email="jaiarora5080@gmail.com")
     
     def test_create_Salary(self):
         e=self.create_Salary()
-        self.assertTrue(isinstance(e,Salary))        
+        self.assertTrue(isinstance(e,Salary)) 
+            

@@ -6594,3 +6594,116 @@ ValueError: The view shopping.views.ProductViewCart didn't return an HttpRespons
 2021-06-09 10:27:09,262:WARNING:Not Found: /favicon.ico
 2021-06-09 10:27:27,460:WARNING:Not Found: /cart
 2021-06-09 10:28:11,006:DEBUG:Using selector: EpollSelector
+2021-06-11 15:35:54,907:INFO:balance sheet pdf generated
+2021-06-11 15:35:55,079:INFO:Getting employees details
+2021-06-11 15:35:55,112:INFO:Update the employee
+2021-06-11 15:35:55,127:INFO:Update the employee
+2021-06-11 15:35:55,133:INFO:Employee updated successfully
+2021-06-11 15:35:55,139:ERROR:Error in updating employee address
+2021-06-11 15:35:55,145:ERROR:Error in updating employee name
+2021-06-11 15:35:55,148:INFO:Registering an employee
+2021-06-11 15:35:55,153:INFO:Employee registered successfuuly
+2021-06-11 15:35:55,182:ERROR:Error in address
+2021-06-11 15:35:55,186:ERROR:Error in name
+2021-06-11 15:35:55,191:INFO:Employee updated successfully
+2021-06-11 15:35:55,194:ERROR:Error in updating employee address
+2021-06-11 15:35:55,198:ERROR:Error in updating employee name
+2021-06-11 15:35:55,208:INFO:Inside insertImportOrder_view
+2021-06-11 15:35:55,209:DEBUG:User session successful
+2021-06-11 15:35:55,214:INFO:Inside insertImportOrder_view
+2021-06-11 15:35:55,216:DEBUG:User session successful
+2021-06-11 15:35:55,217:INFO:Record inserted in database successfully and request redirected to display orders page.
+2021-06-11 15:35:55,218:INFO:Inside displayImportOrders_view
+2021-06-11 15:35:55,219:DEBUG:User session successful
+2021-06-11 15:35:55,219:INFO:Record fetched successfully and request redirected to importOrders page.
+2021-06-11 15:35:55,230:INFO:Inside portalLogin_view
+2021-06-11 15:35:55,230:INFO:User authenticated and request sent to next page
+2021-06-11 15:35:55,237:INFO:Inside portalLogin_view
+2021-06-11 15:35:55,237:WARNING:Authentication failed. Wrong login details. The login page is reloaded
+2021-06-11 15:35:55,246:INFO:Inside logout_view
+2021-06-11 15:35:55,247:INFO:Logout successful and request redirected to login dashboard
+2021-06-11 15:35:55,254:INFO:Inside import_view
+2021-06-11 15:35:55,255:DEBUG:User session successful
+2021-06-11 15:35:55,255:INFO:Request redirected to next page if the user selects export option from the menu
+2021-06-11 15:35:55,256:INFO:Inside displayExportOrders_view
+2021-06-11 15:35:55,257:DEBUG:User session successful
+2021-06-11 15:35:55,257:INFO:Record fetched successfully and request redirected to displayExportOrders page.
+2021-06-11 15:35:55,262:INFO:Inside import_view
+2021-06-11 15:35:55,263:DEBUG:User session successful
+2021-06-11 15:35:55,263:INFO:Request redirected to next page if the user selects import option from the menu
+2021-06-11 15:35:55,268:INFO:Main Dashboard page is requested
+2021-06-11 15:35:55,276:INFO:Getting all employees attendance
+2021-06-11 15:35:55,285:INFO:Getting employees attendance
+2021-06-11 15:35:55,328:WARNING:Wrong session
+2021-06-11 15:35:55,337:ERROR:Employee login fails
+2021-06-11 15:35:55,342:INFO:Employee login successful
+2021-06-11 15:35:55,346:INFO:Employee session ends
+2021-06-11 15:35:55,348:INFO:HR session ends
+2021-06-11 15:35:55,352:ERROR:HR login fails
+2021-06-11 15:35:55,355:INFO:HR login successful
+2021-06-11 15:35:55,390:INFO:Redirect to custadmin.html
+2021-06-11 15:38:48,713:INFO:balance sheet pdf generated
+2021-06-11 15:38:48,762:INFO:Getting employees details
+2021-06-11 15:38:48,771:INFO:Update the employee
+2021-06-11 15:38:48,777:INFO:Update the employee
+2021-06-11 15:38:48,782:INFO:Employee updated successfully
+2021-06-11 15:38:48,789:ERROR:Error in updating employee address
+2021-06-11 15:38:48,794:ERROR:Error in updating employee name
+2021-06-11 15:38:48,798:INFO:Registering an employee
+2021-06-11 15:38:48,803:INFO:Employee registered successfuuly
+2021-06-11 15:38:48,808:ERROR:Error in address
+2021-06-11 15:38:48,811:ERROR:Error in name
+2021-06-11 15:38:48,816:INFO:Employee updated successfully
+2021-06-11 15:38:48,818:ERROR:Error in updating employee address
+2021-06-11 15:38:48,823:ERROR:Error in updating employee name
+2021-06-11 15:38:48,834:INFO:Inside insertImportOrder_view
+2021-06-11 15:38:48,835:DEBUG:User session successful
+2021-06-11 15:38:48,840:INFO:Inside insertImportOrder_view
+2021-06-11 15:38:48,841:DEBUG:User session successful
+2021-06-11 15:38:48,842:INFO:Record inserted in database successfully and request redirected to display orders page.
+2021-06-11 15:38:48,843:INFO:Inside displayImportOrders_view
+2021-06-11 15:38:48,844:DEBUG:User session successful
+2021-06-11 15:38:48,845:INFO:Record fetched successfully and request redirected to importOrders page.
+2021-06-11 15:38:48,849:INFO:Inside portalLogin_view
+2021-06-11 15:38:48,850:INFO:User authenticated and request sent to next page
+2021-06-11 15:38:48,855:INFO:Inside portalLogin_view
+2021-06-11 15:38:48,856:WARNING:Authentication failed. Wrong login details. The login page is reloaded
+2021-06-11 15:38:48,864:INFO:Inside logout_view
+2021-06-11 15:38:48,866:INFO:Logout successful and request redirected to login dashboard
+2021-06-11 15:38:48,872:INFO:Inside import_view
+2021-06-11 15:38:48,873:DEBUG:User session successful
+2021-06-11 15:38:48,874:INFO:Request redirected to next page if the user selects export option from the menu
+2021-06-11 15:38:48,875:INFO:Inside displayExportOrders_view
+2021-06-11 15:38:48,876:DEBUG:User session successful
+2021-06-11 15:38:48,876:INFO:Record fetched successfully and request redirected to displayExportOrders page.
+2021-06-11 15:38:48,881:INFO:Inside import_view
+2021-06-11 15:38:48,881:DEBUG:User session successful
+2021-06-11 15:38:48,882:INFO:Request redirected to next page if the user selects import option from the menu
+2021-06-11 15:38:48,886:INFO:Main Dashboard page is requested
+2021-06-11 15:38:48,893:INFO:Getting all employees attendance
+2021-06-11 15:38:48,903:INFO:Getting employees attendance
+2021-06-11 15:38:48,923:WARNING:Wrong session
+2021-06-11 15:38:48,932:ERROR:Employee login fails
+2021-06-11 15:38:48,938:INFO:Employee login successful
+2021-06-11 15:38:48,941:INFO:Employee session ends
+2021-06-11 15:38:48,943:INFO:HR session ends
+2021-06-11 15:38:48,948:ERROR:HR login fails
+2021-06-11 15:38:48,951:INFO:HR login successful
+2021-06-11 15:38:48,970:INFO:Redirect to custadmin.html
+2021-06-11 18:16:09,214:INFO:balance sheet pdf generated
+2021-06-11 18:16:09,354:DEBUG:Using selector: EpollSelector
+2021-06-11 18:16:40,078:INFO:balance sheet pdf generated
+2021-06-11 18:16:40,125:DEBUG:Using selector: EpollSelector
+2021-06-11 18:16:48,770:INFO:balance sheet pdf generated
+2021-06-11 18:16:48,817:DEBUG:Using selector: EpollSelector
+2021-06-11 18:16:59,814:INFO:balance sheet pdf generated
+2021-06-11 18:17:04,365:WARNING:Not Found: /favicon.ico
+2021-06-11 18:17:09,546:WARNING:Not Found: /favicon.ico
+2021-06-11 18:17:17,908:INFO:Accounts  login successful
+2021-06-11 18:17:18,072:INFO:Accounts session started
+2021-06-11 18:17:18,211:WARNING:Not Found: /favicon.ico
+2021-06-11 18:17:26,530:INFO:showing export bills
+2021-06-11 18:17:29,072:INFO:logout from accounts department
+2021-06-11 18:17:29,074:INFO:Acounts session ends
+2021-06-11 18:17:29,077:INFO:Accounts deparment logout
+2021-06-11 18:17:46,234:DEBUG:Using selector: EpollSelector
