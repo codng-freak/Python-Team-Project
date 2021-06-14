@@ -6707,3 +6707,131 @@ ValueError: The view shopping.views.ProductViewCart didn't return an HttpRespons
 2021-06-11 18:17:29,074:INFO:Acounts session ends
 2021-06-11 18:17:29,077:INFO:Accounts deparment logout
 2021-06-11 18:17:46,234:DEBUG:Using selector: EpollSelector
+2021-06-14 10:28:09,473:INFO:balance sheet pdf generated
+2021-06-14 10:28:26,100:WARNING:Not Found: /favicon.ico
+2021-06-14 10:28:26,431:INFO:Inside displayCompanies_view
+2021-06-14 10:28:26,431:WARNING:User session not found and request redirected to dashboard.
+2021-06-14 10:29:45,146:INFO:Main Dashboard page is requested
+2021-06-14 10:29:52,659:INFO:Inside portalLogin_view
+2021-06-14 10:29:52,659:INFO:User authenticated and request sent to next page
+2021-06-14 10:30:24,491:INFO:Inside import_view
+2021-06-14 10:30:24,493:DEBUG:User session successful
+2021-06-14 10:30:24,493:INFO:Request redirected to next page if the user selects import option from the menu
+2021-06-14 10:30:27,029:INFO:Inside import_view
+2021-06-14 10:30:27,030:DEBUG:User session successful
+2021-06-14 10:30:27,972:INFO:Inside import_view
+2021-06-14 10:30:27,974:DEBUG:User session successful
+2021-06-14 10:30:27,975:INFO:Request redirected to next page if the user selects export option from the menu
+2021-06-14 10:30:27,992:INFO:Inside displayExportOrders_view
+2021-06-14 10:30:27,995:DEBUG:User session successful
+2021-06-14 10:30:27,995:INFO:Record fetched successfully and request redirected to displayExportOrders page.
+2021-06-14 10:30:30,161:INFO:Inside deleteExportOrder_view
+2021-06-14 10:30:30,163:DEBUG:User session successful
+2021-06-14 10:30:30,335:INFO:Record with id 1 deleted successfully and request forwarded to exportOrders page
+2021-06-14 10:30:30,342:INFO:Inside displayExportOrders_view
+2021-06-14 10:30:30,344:DEBUG:User session successful
+2021-06-14 10:30:30,344:INFO:Record fetched successfully and request redirected to displayExportOrders page.
+2021-06-14 10:30:31,131:INFO:Inside clientDemands_view
+2021-06-14 10:30:31,158:DEBUG:User session successful
+2021-06-14 10:30:31,158:INFO:Record fetched successfully and request redirected to clientDemands page.
+2021-06-14 10:30:35,577:INFO:Inside logout_view
+2021-06-14 10:30:35,580:INFO:Logout successful and request redirected to login dashboard
+2021-06-14 10:36:08,851:INFO:Accounts  login successful
+2021-06-14 10:36:09,063:INFO:Accounts session started
+2021-06-14 10:36:14,937:INFO:showing export bills
+2021-06-14 10:36:17,599:INFO:redirecting to edit page for export bills
+2021-06-14 10:36:22,144:INFO:showing import bills
+2021-06-14 10:36:26,889:INFO:balance sheet pdf render
+2021-06-14 10:36:26,923:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7ff3fd0ea770>
+  dest = <_io.BytesIO object at 0x7ff3fd0ea310>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-14 10:37:28,232:INFO:balance sheet pdf render
+2021-06-14 10:37:28,233:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7ff3fd0370e0>
+  dest = <_io.BytesIO object at 0x7ff3fd037c70>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-14 10:44:51,163:INFO:balance sheet pdf render
+2021-06-14 10:44:51,163:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7ff3fd046900>
+  dest = <_io.BytesIO object at 0x7ff3ffaf3ef0>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-14 10:44:57,963:INFO:showing export bills
+2021-06-14 10:45:02,074:INFO:showing import bills
+2021-06-14 10:45:06,799:INFO:showing import bills
+2021-06-14 10:45:08,800:WARNING:Not Found: /edits/1
+2021-06-14 10:45:28,019:INFO:showing export bills
+2021-06-14 10:45:29,332:INFO:redirecting to edit page for export bills
+2021-06-14 11:10:33,821:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/EmployeeProfile.html changed, reloading.
+2021-06-14 11:10:33,822:DEBUG:Using selector: EpollSelector
+2021-06-14 11:10:35,236:INFO:balance sheet pdf generated
+2021-06-14 11:10:57,633:INFO:logout from accounts department
+2021-06-14 11:10:57,634:INFO:Acounts session ends
+2021-06-14 11:10:57,639:INFO:Accounts deparment logout
+2021-06-14 11:10:58,289:WARNING:Not Found: /favicon.ico
+2021-06-14 11:11:21,312:INFO:HR login successful
+2021-06-14 11:11:21,432:INFO:HR session starts
+2021-06-14 11:11:23,964:INFO:Getting employees details
+2021-06-14 11:11:30,827:INFO:HR session ends
+2021-06-14 11:11:30,828:INFO:HR logout
+2021-06-14 11:11:32,274:WARNING:Not Found: /favicon.ico
+2021-06-14 11:11:42,409:INFO:Employee login successful
+2021-06-14 11:11:42,486:INFO:Employee session starts
+2021-06-14 11:12:01,060:INFO:Employee session starts
+2021-06-14 11:12:01,162:WARNING:Not Found: /favicon.ico
+2021-06-14 11:12:06,192:INFO:Employee session starts
+2021-06-14 11:12:06,318:WARNING:Not Found: /favicon.ico
+2021-06-14 11:12:06,883:INFO:Getting employees attendance
+2021-06-14 11:12:33,252:INFO:Employee session starts
+2021-06-14 11:12:33,336:WARNING:Not Found: /favicon.ico
+2021-06-14 11:12:37,938:INFO:Employee session starts
+2021-06-14 11:12:39,533:INFO:Getting employees attendance
+2021-06-14 11:12:48,294:INFO:Employee session ends
+2021-06-14 11:12:48,296:INFO:Employee logout
+2021-06-14 11:12:48,804:WARNING:Not Found: /favicon.ico
+2021-06-14 11:16:38,935:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/EmployeeProfile.html changed, reloading.
+2021-06-14 11:16:38,956:DEBUG:Using selector: EpollSelector
+2021-06-14 11:16:39,618:INFO:balance sheet pdf generated
+2021-06-14 11:17:02,357:INFO:Employee login successful
+2021-06-14 11:17:02,461:INFO:Employee session starts
+2021-06-14 11:17:05,485:INFO:Employee session starts
+2021-06-14 11:17:11,212:INFO:Employee session starts
+2021-06-14 11:17:11,722:INFO:Getting employees attendance
+2021-06-14 11:17:30,457:INFO:Employee session ends
+2021-06-14 11:17:30,459:INFO:Employee logout
+2021-06-14 11:17:30,828:WARNING:Not Found: /favicon.ico
+2021-06-14 11:17:39,490:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/EmployeeProfile.html changed, reloading.
+2021-06-14 11:17:39,491:DEBUG:Using selector: EpollSelector
+2021-06-14 11:17:40,143:INFO:balance sheet pdf generated
+2021-06-14 11:19:48,568:DEBUG:Using selector: EpollSelector
+2021-06-14 11:21:03,734:INFO:balance sheet pdf generated
+2021-06-14 11:21:03,789:DEBUG:Using selector: EpollSelector
+2021-06-14 11:21:11,271:INFO:balance sheet pdf generated
+2021-06-14 11:21:11,337:DEBUG:Using selector: EpollSelector
+2021-06-14 11:21:17,441:INFO:balance sheet pdf generated
+2021-06-14 11:21:22,118:WARNING:Not Found: /favicon.ico
+2021-06-14 11:21:43,360:INFO:Accounts  login successful
+2021-06-14 11:21:43,499:INFO:Accounts session started
+2021-06-14 11:21:46,322:INFO:showing export bills
+2021-06-14 11:21:48,989:INFO:redirecting to edit page for export bills
+2021-06-14 11:21:49,124:WARNING:Not Found: /favicon.ico
+2021-06-14 11:21:59,739:WARNING:Not Found: /favicon.ico
+2021-06-14 11:22:21,051:INFO:balance sheet pdf render
+2021-06-14 11:22:21,052:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7f617181cf90>
+  dest = <_io.BytesIO object at 0x7f61717dd310>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-14 11:22:21,377:WARNING:Not Found: /favicon.ico
+2021-06-14 11:29:13,537:DEBUG:Using selector: EpollSelector
