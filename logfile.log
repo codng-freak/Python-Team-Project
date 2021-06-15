@@ -6858,3 +6858,209 @@ ValueError: The view shopping.views.ProductViewCart didn't return an HttpRespons
 2021-06-14 17:44:29,751:INFO:Acounts session ends
 2021-06-14 17:44:29,753:INFO:Accounts deparment logout
 2021-06-14 17:44:35,942:DEBUG:Using selector: EpollSelector
+2021-06-15 09:38:49,787:INFO:balance sheet pdf generated
+2021-06-15 09:38:53,620:WARNING:Not Found: /favicon.ico
+2021-06-15 09:39:00,771:WARNING:Not Found: /cart
+2021-06-15 09:39:20,342:INFO:Accounts  login successful
+2021-06-15 09:39:20,342:ERROR:Accounts login fails
+2021-06-15 09:39:26,447:INFO:Accounts  login successful
+2021-06-15 09:39:26,561:INFO:Accounts session started
+2021-06-15 09:39:34,093:INFO:balance sheet pdf render
+2021-06-15 09:39:34,094:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7fb90c374860>
+  dest = <_io.BytesIO object at 0x7fb90c374db0>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-15 09:39:34,139:DEBUG:FileObject 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css', Basepath: '/home/harsh/.virtualenvs/teamProject/Fashion_Hub'
+2021-06-15 09:39:34,139:DEBUG:URLParts: (ParseResult(scheme='https', netloc='maxcdn.bootstrapcdn.com', path='/bootstrap/3.4.1/css/bootstrap.min.css', params='', query='', fragment=''), 'https')
+2021-06-15 09:39:34,139:DEBUG:Sending request for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css with httplib
+2021-06-15 09:39:34,139:DEBUG:Uri parsed: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
+2021-06-15 09:39:34,180:DEBUG:here
+2021-06-15 09:39:42,036:INFO:showing credit card details
+2021-06-15 09:39:45,363:INFO:showing import bills
+2021-06-15 09:39:50,164:WARNING:Not Found: /edits/1
+2021-06-15 09:39:53,106:INFO:showing export bills
+2021-06-15 09:39:54,594:INFO:redirecting to edit page for export bills
+2021-06-15 09:44:39,205:INFO:Accounts  login successful
+2021-06-15 09:44:39,345:INFO:Accounts session started
+2021-06-15 09:44:41,174:INFO:showing export bills
+2021-06-15 09:44:45,919:INFO:showing import bills
+2021-06-15 09:44:49,159:INFO:showing export bills
+2021-06-15 09:45:00,431:INFO:balance sheet pdf render
+2021-06-15 09:45:00,432:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7fb90c120900>
+  dest = <_io.BytesIO object at 0x7fb90c120db0>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-15 09:45:00,438:DEBUG:FileObject 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css', Basepath: '/home/harsh/.virtualenvs/teamProject/Fashion_Hub'
+2021-06-15 09:45:00,438:DEBUG:URLParts: (ParseResult(scheme='https', netloc='maxcdn.bootstrapcdn.com', path='/bootstrap/3.4.1/css/bootstrap.min.css', params='', query='', fragment=''), 'https')
+2021-06-15 09:45:00,440:DEBUG:Sending request for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css with httplib
+2021-06-15 09:45:00,440:DEBUG:Uri parsed: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
+2021-06-15 09:45:00,477:DEBUG:here
+2021-06-15 09:45:53,403:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/balancesheet.html changed, reloading.
+2021-06-15 09:45:53,404:DEBUG:Using selector: EpollSelector
+2021-06-15 09:45:54,499:INFO:balance sheet pdf generated
+2021-06-15 09:45:57,234:INFO:Accounts session started
+2021-06-15 09:45:57,848:WARNING:Not Found: /favicon.ico
+2021-06-15 09:45:59,137:INFO:showing credit card details
+2021-06-15 09:46:01,711:INFO:balance sheet pdf render
+2021-06-15 09:46:01,712:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7f438a394c70>
+  dest = <_io.BytesIO object at 0x7f438ac024a0>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-15 09:46:01,723:DEBUG:FileObject 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css', Basepath: '/home/harsh/.virtualenvs/teamProject/Fashion_Hub'
+2021-06-15 09:46:01,725:DEBUG:URLParts: (ParseResult(scheme='https', netloc='maxcdn.bootstrapcdn.com', path='/bootstrap/3.4.1/css/bootstrap.min.css', params='', query='', fragment=''), 'https')
+2021-06-15 09:46:01,725:DEBUG:Sending request for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css with httplib
+2021-06-15 09:46:01,725:DEBUG:Uri parsed: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
+2021-06-15 09:46:01,787:DEBUG:here
+2021-06-15 09:51:53,470:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/balancesheet.html changed, reloading.
+2021-06-15 09:51:53,471:DEBUG:Using selector: EpollSelector
+2021-06-15 09:51:54,053:INFO:balance sheet pdf generated
+2021-06-15 09:51:56,185:INFO:balance sheet pdf render
+2021-06-15 09:51:56,260:ERROR:Internal Server Error: /pdf/
+Traceback (most recent call last):
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/Fashion_Hub/bill_logs/views.py", line 64, in get
+    pdf = render_to_pdf('balancesheet.html', data)
+  File "/home/harsh/.virtualenvs/teamProject/Fashion_Hub/bill_logs/utils.py", line 16, in render_to_pdf
+    pdf = pisa.pisaDocument(BytesIO(html.encode("ISO-8859-1")), result)
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20b9' in position 1826: ordinal not in range(256)
+2021-06-15 09:51:56,598:WARNING:Not Found: /favicon.ico
+2021-06-15 09:52:05,439:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/balancesheet.html changed, reloading.
+2021-06-15 09:52:05,439:DEBUG:Using selector: EpollSelector
+2021-06-15 09:52:06,024:INFO:balance sheet pdf generated
+2021-06-15 09:52:08,250:INFO:balance sheet pdf render
+2021-06-15 09:52:08,287:ERROR:Internal Server Error: /pdf/
+Traceback (most recent call last):
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/Fashion_Hub/bill_logs/views.py", line 64, in get
+    pdf = render_to_pdf('balancesheet.html', data)
+  File "/home/harsh/.virtualenvs/teamProject/Fashion_Hub/bill_logs/utils.py", line 16, in render_to_pdf
+    pdf = pisa.pisaDocument(BytesIO(html.encode("ISO-8859-1")), result)
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20b9' in position 1826: ordinal not in range(256)
+2021-06-15 09:52:08,356:WARNING:Not Found: /favicon.ico
+2021-06-15 09:52:48,645:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/balancesheet.html changed, reloading.
+2021-06-15 09:52:48,646:DEBUG:Using selector: EpollSelector
+2021-06-15 09:52:49,234:INFO:balance sheet pdf generated
+2021-06-15 09:52:51,179:INFO:balance sheet pdf render
+2021-06-15 09:52:51,180:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7fbcd50798b0>
+  dest = <_io.BytesIO object at 0x7fbcd5079310>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-15 09:52:51,189:DEBUG:FileObject 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css', Basepath: '/home/harsh/.virtualenvs/teamProject/Fashion_Hub'
+2021-06-15 09:52:51,189:DEBUG:URLParts: (ParseResult(scheme='https', netloc='maxcdn.bootstrapcdn.com', path='/bootstrap/3.4.1/css/bootstrap.min.css', params='', query='', fragment=''), 'https')
+2021-06-15 09:52:51,189:DEBUG:Sending request for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css with httplib
+2021-06-15 09:52:51,189:DEBUG:Uri parsed: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
+2021-06-15 09:52:51,216:DEBUG:here
+2021-06-15 09:52:51,407:WARNING:Not Found: /favicon.ico
+2021-06-15 09:53:02,683:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/balancesheet.html changed, reloading.
+2021-06-15 09:53:02,683:DEBUG:Using selector: EpollSelector
+2021-06-15 09:53:03,343:INFO:balance sheet pdf generated
+2021-06-15 09:53:08,725:INFO:balance sheet pdf render
+2021-06-15 09:53:08,726:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7fdb22b6e2c0>
+  dest = <_io.BytesIO object at 0x7fdb22b53310>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-15 09:53:08,733:DEBUG:FileObject 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css', Basepath: '/home/harsh/.virtualenvs/teamProject/Fashion_Hub'
+2021-06-15 09:53:08,734:DEBUG:URLParts: (ParseResult(scheme='https', netloc='maxcdn.bootstrapcdn.com', path='/bootstrap/3.4.1/css/bootstrap.min.css', params='', query='', fragment=''), 'https')
+2021-06-15 09:53:08,734:DEBUG:Sending request for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css with httplib
+2021-06-15 09:53:08,734:DEBUG:Uri parsed: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
+2021-06-15 09:53:08,757:DEBUG:here
+2021-06-15 09:53:08,952:WARNING:Not Found: /favicon.ico
+2021-06-15 09:54:27,377:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/balancesheet.html changed, reloading.
+2021-06-15 09:54:27,377:DEBUG:Using selector: EpollSelector
+2021-06-15 09:54:28,024:INFO:balance sheet pdf generated
+2021-06-15 09:54:30,326:INFO:balance sheet pdf render
+2021-06-15 09:54:30,378:ERROR:Internal Server Error: /pdf/
+Traceback (most recent call last):
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/Fashion_Hub/bill_logs/views.py", line 64, in get
+    pdf = render_to_pdf('balancesheet.html', data)
+  File "/home/harsh/.virtualenvs/teamProject/Fashion_Hub/bill_logs/utils.py", line 16, in render_to_pdf
+    pdf = pisa.pisaDocument(BytesIO(html.encode("ISO-8859-1")), result)
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20b9' in position 1711: ordinal not in range(256)
+2021-06-15 09:54:30,532:WARNING:Not Found: /favicon.ico
+2021-06-15 09:54:33,248:INFO:balance sheet pdf render
+2021-06-15 09:54:33,283:ERROR:Internal Server Error: /pdf/
+Traceback (most recent call last):
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/harsh/.virtualenvs/teamProject/Fashion_Hub/bill_logs/views.py", line 64, in get
+    pdf = render_to_pdf('balancesheet.html', data)
+  File "/home/harsh/.virtualenvs/teamProject/Fashion_Hub/bill_logs/utils.py", line 16, in render_to_pdf
+    pdf = pisa.pisaDocument(BytesIO(html.encode("ISO-8859-1")), result)
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20b9' in position 1711: ordinal not in range(256)
+2021-06-15 09:54:33,414:WARNING:Not Found: /favicon.ico
+2021-06-15 09:54:44,430:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/balancesheet.html changed, reloading.
+2021-06-15 09:54:44,430:DEBUG:Using selector: EpollSelector
+2021-06-15 09:54:45,042:INFO:balance sheet pdf generated
+2021-06-15 09:54:48,260:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/balancesheet.html changed, reloading.
+2021-06-15 09:54:48,262:DEBUG:Using selector: EpollSelector
+2021-06-15 09:54:48,939:INFO:balance sheet pdf generated
+2021-06-15 09:54:50,890:INFO:balance sheet pdf render
+2021-06-15 09:54:50,891:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7f888ae771d0>
+  dest = <_io.BytesIO object at 0x7f888ae5e1d0>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-15 09:54:50,898:DEBUG:FileObject 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css', Basepath: '/home/harsh/.virtualenvs/teamProject/Fashion_Hub'
+2021-06-15 09:54:50,898:DEBUG:URLParts: (ParseResult(scheme='https', netloc='maxcdn.bootstrapcdn.com', path='/bootstrap/3.4.1/css/bootstrap.min.css', params='', query='', fragment=''), 'https')
+2021-06-15 09:54:50,898:DEBUG:Sending request for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css with httplib
+2021-06-15 09:54:50,898:DEBUG:Uri parsed: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
+2021-06-15 09:54:50,952:DEBUG:here
+2021-06-15 09:54:51,172:WARNING:Not Found: /favicon.ico
+2021-06-15 09:55:07,669:WARNING:Not Found: /favicon.ico
+2021-06-15 09:55:10,023:INFO:Accounts session started
+2021-06-15 09:55:10,554:WARNING:Not Found: /favicon.ico
+2021-06-15 09:55:11,972:INFO:showing credit card details
+2021-06-15 09:56:05,022:INFO:/home/harsh/.virtualenvs/teamProject/Fashion_Hub/Templates/index.html changed, reloading.
+2021-06-15 09:56:05,022:DEBUG:Using selector: EpollSelector
+2021-06-15 09:56:05,788:INFO:balance sheet pdf generated
+2021-06-15 09:56:06,689:WARNING:Not Found: /favicon.ico
+2021-06-15 09:56:46,340:WARNING:Not Found: /favicon.ico
+2021-06-15 09:56:48,953:INFO:logout from accounts department
+2021-06-15 09:56:48,954:INFO:Acounts session ends
+2021-06-15 09:56:48,958:INFO:Accounts deparment logout
+2021-06-15 09:57:02,208:DEBUG:Using selector: EpollSelector
