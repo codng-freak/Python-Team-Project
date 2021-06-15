@@ -6835,3 +6835,26 @@ ValueError: The view shopping.views.ProductViewCart didn't return an HttpRespons
   context_meta = None
 2021-06-14 11:22:21,377:WARNING:Not Found: /favicon.ico
 2021-06-14 11:29:13,537:DEBUG:Using selector: EpollSelector
+2021-06-14 17:43:13,779:INFO:balance sheet pdf generated
+2021-06-14 17:43:18,337:WARNING:Not Found: /favicon.ico
+2021-06-14 17:44:05,735:INFO:Accounts  login successful
+2021-06-14 17:44:05,883:INFO:Accounts session started
+2021-06-14 17:44:11,107:INFO:balance sheet pdf render
+2021-06-14 17:44:11,107:DEBUG:pisaDocument options:
+  src = <_io.BytesIO object at 0x7f076870f810>
+  dest = <_io.BytesIO object at 0x7f0768656810>
+  path = None
+  link_callback = None
+  xhtml = False
+  context_meta = None
+2021-06-14 17:44:11,184:DEBUG:FileObject 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css', Basepath: '/home/harsh/.virtualenvs/teamProject/Fashion_Hub'
+2021-06-14 17:44:11,184:DEBUG:URLParts: (ParseResult(scheme='https', netloc='maxcdn.bootstrapcdn.com', path='/bootstrap/3.4.1/css/bootstrap.min.css', params='', query='', fragment=''), 'https')
+2021-06-14 17:44:11,185:DEBUG:Sending request for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css with httplib
+2021-06-14 17:44:11,185:DEBUG:Uri parsed: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
+2021-06-14 17:44:11,265:DEBUG:here
+2021-06-14 17:44:17,248:INFO:showing export bills
+2021-06-14 17:44:19,505:INFO:redirecting to edit page for export bills
+2021-06-14 17:44:29,751:INFO:logout from accounts department
+2021-06-14 17:44:29,751:INFO:Acounts session ends
+2021-06-14 17:44:29,753:INFO:Accounts deparment logout
+2021-06-14 17:44:35,942:DEBUG:Using selector: EpollSelector

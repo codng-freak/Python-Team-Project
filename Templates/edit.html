@@ -170,51 +170,51 @@ form .user-details .input-box{
   <div class="container">
     <div class="title">Update details</div>
     <div class="content">
-      <form method="POST" class="post-form" action="/update/{{jai.id}}">
+      <form method="POST" class="form-group" action="/update/{{jai.id}}">
       {% csrf_token %} 
         <div class="user-details">
           <div class="col-auto">
             <span class="details">Billing amount</span>
-            <input type="text" name="billing_amt" id="id_eid" required maxlength="20" value="{{ jai.billing_amt }}"/>  
+            <input class="form-control" type="text" name="billing_amt" id="id_eid" required maxlength="20" value="{{ jai.billing_amt }}"/>  
           </div>
           <br>
           <br>
           <div class="col-auto">
             <span class="details">Date of export</span>
-            <input type="text" name="date_of_export" id="id_eid" required maxlength="20" value="{{ jai.date_of_export }}"/>
+            <input class="form-control" type="text" name="date_of_export" id="id_eid" required maxlength="20" value="{{ jai.date_of_export }}"/>
           </div>
           <br>
           <br>
           <div class="col-auto">
             <span class="details">GST imposed</span>
-            <input type="text" name="gst_imposed" id="id_eid" required maxlength="20" value="{{ jai.gst_imposed }}"/>
+            <input class="form-control" type="text" name="gst_imposed" id="id_eid" required maxlength="20" value="{{ jai.gst_imposed }}"/>
           </div>
           <br>
           <br>
           <div class="col-auto">
             <span class="details">Exported to</span>
-            <input type="text" name="exported_to" id="id_eid" required maxlength="20" value="{{ jai.exported_to }}"/>
+            <input class="form-control" type="text" name="exported_to" id="id_eid" required maxlength="20" value="{{ jai.exported_to }}"/>
           </div>
           <br>
           <br>
           <div class="col-auto">
             <span class="details">OrderID</span>
-            <input type="text" name="order_ID" id="id_eid" required maxlength="20" value="{{ jai.order_ID }}"/>
+            <input class="form-control" type="text" name="order_ID" id="id_eid" required maxlength="20" value="{{ jai.order_ID }}"/>
           </div>
           <br>
           <br>
           <div class="col-auto">
             <span class="details">Quantity</span>
-            <input type="text" name="quantity" id="id_eid" required maxlength="20" value="{{ jai.quantity }}"/>
+            <input  class="form-control" type="text" name="quantity" id="id_eid" required maxlength="20" value="{{ jai.quantity }}"/>
           </div>
           <br>
           <br>
            <div class="col-auto">
             <span class="details">Estimated time</span>
-            <input type="text" name="estimated_time" id="id_eid" required maxlength="20" value="{{ jai.estimated_time }}"/>
+            <input class="form-control" type="text" name="estimated_time" id="id_eid" required maxlength="20" value="{{ jai.estimated_time }}"/>
           </div>
         </div>
-        <br>
+        
         <div class="button">
           <input type="submit" value="Update">
         </div>
